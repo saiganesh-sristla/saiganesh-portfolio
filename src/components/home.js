@@ -5,7 +5,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Home = () => {
   return (
     <div
-      name="home"
+      name="Home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg flex flex-col items-center justify-center px-5 mx-auto h-full md:flex-row">
@@ -21,7 +21,7 @@ const Home = () => {
           </p>
           <div>
             <button className="text-white w-fit flex rounded-md items-center px-6 py-3 my-2 bg-gradient-to-r from-cyan-500 to-blue-500 group cursor-pointer">
-              Portfolio
+              <a href="/resume.pdf" download={true} target="_blank" rel="noreferrer">download cv</a>
               <span className="ml-1 group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={20} />
               </span>
