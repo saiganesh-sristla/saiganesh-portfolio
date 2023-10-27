@@ -2,6 +2,7 @@ import Home from "./components/home.js";
 import NavBar from "./components/navbar.js";
 import Socials from "./components/socials.js";
 import About from "./components/about.js";
+import Experience from "./components/experience.js";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <NavBar />
       <Home />
       <About/>
-
+      <Experience/>
       <Socials />
     </div>
   );
