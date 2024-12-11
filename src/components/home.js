@@ -31,7 +31,7 @@ const Home = () => {
 
         <div>
           <img
-            src={profile}
+            src="https://img.freepik.com/free-vector/young-programmer-working-laptop-computer-cartoon-character_24797-2123.jpg?semt=ais_hybrid"
             alt="my profile"
             className="mx-auto w-2/3 md:w-full rounded-2xl"
           ></img>
