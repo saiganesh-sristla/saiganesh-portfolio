@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "../assets/profile.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
