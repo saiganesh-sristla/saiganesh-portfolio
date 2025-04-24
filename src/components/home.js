@@ -20,7 +20,7 @@ const Home = () => {
           </p>
           <div>
             <button className="text-white w-fit flex rounded-md items-center px-6 py-3 my-2 bg-gradient-to-r from-cyan-500 to-blue-500 group cursor-pointer">
-              <a href="/resume.pdf" download={true} target="_blank" rel="noreferrer">download cv</a>
+              <a href="/Saiganesh's_Resume.pdf" download={true} target="_blank" rel="noreferrer">download cv</a>
               <span className="ml-1 group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={20} />
               </span>
